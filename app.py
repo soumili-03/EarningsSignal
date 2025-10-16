@@ -13,7 +13,6 @@ from utils.visuals import plot_confusion_matrix, plot_feature_importance
 
 
 st.set_page_config(page_title="Earnings Dashboard", page_icon="📈", layout="wide")
-
 st.title("📈 Historical Strategy & Analysis Dashboard")
 st.markdown("Evaluating a linguistic model's ability to predict earnings surprises and stock performance.")
 
@@ -191,137 +190,137 @@ if df is not None:
     # --- Tab 4: Historical Trends ---
     with tab4:
             # ------------------- ADD STYLING -------------------
-        st.markdown("""
-            <style>
-            /* Card styling */
-            .block-container {
-                padding-top: 1rem;
-            padding-bottom: 0rem;
-        }
-        .css-1aumxhk, .css-1v0mbdj, .stPlotlyChart {
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
-            padding: 15px;
-        }
-        h2, h3 {
-            font-family: 'Arial Black', sans-serif;
-            color: #333333;
-        }
-        h3 {
-            font-size: 18px;
-            margin-bottom: 0px;
-        }
-        .trend-text {
-            font-size: 14px;
-            font-weight: 500;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+    #     st.markdown("""
+    #         <style>
+    #         /* Card styling */
+    #         .block-container {
+    #             padding-top: 1rem;
+    #         padding-bottom: 0rem;
+    #     }
+    #     .css-1aumxhk, .css-1v0mbdj, .stPlotlyChart {
+    #         background-color: #ffffff;
+    #         border-radius: 12px;
+    #         box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+    #         padding: 15px;
+    #     }
+    #     h2, h3 {
+    #         font-family: 'Arial Black', sans-serif;
+    #         color: #333333;
+    #     }
+    #     h3 {
+    #         font-size: 18px;
+    #         margin-bottom: 0px;
+    #     }
+    #     .trend-text {
+    #         font-size: 14px;
+    #         font-weight: 500;
+    #     }
+    #     </style>
+    # """, unsafe_allow_html=True)
 
-    # ------------------- CHECK SESSION -------------------
-    if 'selected_ticker' not in st.session_state or 'selected_date' not in st.session_state:
-        st.info("Please select a company and quarter in the '📜 Read Transcript' tab to continue.")
-    else:
-        selected_ticker = st.session_state['selected_ticker']
-        company_df = df[df['company_ticker'] == selected_ticker].sort_values('call_date', ascending=True)
+        # ------------------- CHECK SESSION -------------------
+        if 'selected_ticker' not in st.session_state or 'selected_date' not in st.session_state:
+            st.info("Please select a company and quarter in the '📜 Read Transcript' tab to continue.")
+        else:
+            selected_ticker = st.session_state['selected_ticker']
+            company_df = df[df['company_ticker'] == selected_ticker].sort_values('call_date', ascending=True)
 
-        # ------------------- SECTION 1: OVERVIEW -------------------
-        st.subheader("📊 Historical Linguistic Trends Overview")
+            # ------------------- SECTION 1: OVERVIEW -------------------
+            st.subheader("📊 Historical Linguistic Trends Overview")
 
-        fig_trends = px.line(
-            company_df,
-            x='call_date',
-            y=['avg_evasiveness', 'avg_answer_length', 'avg_numeric_density'],
-            title=f"Linguistic Metrics Over Time for {selected_ticker}",
-            markers=True
-        )
-        fig_trends.update_layout(
-            title_font=dict(size=18, color="#333", family="Arial Black"),
-            xaxis_title="Date",
-            yaxis_title="Feature Value",
-            template="plotly_white",
-            showlegend=True,
-            hovermode="x unified"
-        )
-        st.plotly_chart(fig_trends, use_container_width=True)
+            fig_trends = px.line(
+                company_df,
+                x='call_date',
+                y=['avg_evasiveness', 'avg_answer_length', 'avg_numeric_density'],
+                title=f"Linguistic Metrics Over Time for {selected_ticker}",
+                markers=True
+            )
+            fig_trends.update_layout(
+                title_font=dict(size=18, color="#333", family="Arial Black"),
+                xaxis_title="Date",
+                yaxis_title="Feature Value",
+                template="plotly_white",
+                showlegend=True,
+                hovermode="x unified"
+            )
+            st.plotly_chart(fig_trends, use_container_width=True)
 
-        # ------------------- SECTION 2: FEATURE-WISE TRENDS -------------------
-        st.markdown("## 🗂️ Feature-wise Trends")
+            # ------------------- SECTION 2: FEATURE-WISE TRENDS -------------------
+            st.markdown("## 🗂️ Feature-wise Trends")
 
-        feature_list = [
-            "avg_evasiveness", "avg_sentiment", "avg_readability", "avg_QA_similarity",
-            "avg_answer_length", "avg_numeric_density", "n_questions"
-        ]
+            feature_list = [
+                "avg_evasiveness", "avg_sentiment", "avg_readability", "avg_QA_similarity",
+                "avg_answer_length", "avg_numeric_density", "n_questions"
+            ]
 
-        for i in range(0, len(feature_list), 2):
-            cols = st.columns(2)
-            for j, feature in enumerate(feature_list[i:i+2]):
-                with cols[j]:
-                    if feature not in company_df.columns:
-                        st.warning(f"Feature '{feature}' missing")
-                        continue
+            for i in range(0, len(feature_list), 2):
+                cols = st.columns(2)
+                for j, feature in enumerate(feature_list[i:i+2]):
+                    with cols[j]:
+                        if feature not in company_df.columns:
+                            st.warning(f"Feature '{feature}' missing")
+                            continue
 
-                    feature_data = company_df[feature].dropna()
-                    if feature_data.empty:
-                        st.info(f"No data available for {feature}.")
-                        continue
+                        feature_data = company_df[feature].dropna()
+                        if feature_data.empty:
+                            st.info(f"No data available for {feature}.")
+                            continue
 
-                    # --- Calculate trend change ---
-                    if len(feature_data) >= 2:
-                        first_val = feature_data.iloc[0]
-                        last_val = feature_data.iloc[-1]
-                        pct_change = ((last_val - first_val) / first_val) * 100 if first_val != 0 else 0
-                        trend_symbol = "🔼" if pct_change > 0 else "🔽"
-                        trend_color = "green" if pct_change > 0 else "red"
-                        summary = f"{trend_symbol} {abs(pct_change):.2f}% change since first record"
-                    else:
-                        summary = "No trend data available."
-                        trend_color = "gray"
+                        # --- Calculate trend change ---
+                        if len(feature_data) >= 2:
+                            first_val = feature_data.iloc[0]
+                            last_val = feature_data.iloc[-1]
+                            pct_change = ((last_val - first_val) / first_val) * 100 if first_val != 0 else 0
+                            trend_symbol = "🔼" if pct_change > 0 else "🔽"
+                            trend_color = "green" if pct_change > 0 else "red"
+                            summary = f"{trend_symbol} {abs(pct_change):.2f}% change since first record"
+                        else:
+                            summary = "No trend data available."
+                            trend_color = "gray"
 
-                    # --- Create line chart for feature ---
-                    fig = px.line(
-                        company_df,
-                        x='call_date',
-                        y=feature,
-                        markers=True,
-                        title=feature.replace('_', ' ').title(),
-                    )
-                    fig.update_traces(line=dict(width=2))
-                    fig.update_layout(
-                        height=300,
-                        template="simple_white",
-                        margin=dict(l=10, r=10, t=40, b=10),
-                        title_font=dict(size=14, color="#333", family="Arial Black"),
-                        xaxis_title="Date",
-                        yaxis_title="",
-                        plot_bgcolor="rgba(250,250,250,1)",
-                        paper_bgcolor="rgba(255,255,255,1)",
-                        hovermode="x unified",
-                    )
+                        # --- Create line chart for feature ---
+                        fig = px.line(
+                            company_df,
+                            x='call_date',
+                            y=feature,
+                            markers=True,
+                            title=feature.replace('_', ' ').title(),
+                        )
+                        fig.update_traces(line=dict(width=2))
+                        fig.update_layout(
+                            height=300,
+                            template="simple_white",
+                            margin=dict(l=10, r=10, t=40, b=10),
+                            title_font=dict(size=14, color="#333", family="Arial Black"),
+                            xaxis_title="Date",
+                            yaxis_title="",
+                            plot_bgcolor="rgba(250,250,250,1)",
+                            paper_bgcolor="rgba(255,255,255,1)",
+                            hovermode="x unified",
+                        )
 
-                    # --- Display card ---
-                    st.markdown(f"### {feature.replace('_', ' ').title()}")
-                    st.markdown(
-                        f"<span class='trend-text' style='color:{trend_color};'>{summary}</span>",
-                        unsafe_allow_html=True
-                    )
-                    st.plotly_chart(fig, use_container_width=True)
+                        # --- Display card ---
+                        st.markdown(f"### {feature.replace('_', ' ').title()}")
+                        st.markdown(
+                            f"<span class='trend-text' style='color:{trend_color};'>{summary}</span>",
+                            unsafe_allow_html=True
+                        )
+                        st.plotly_chart(fig, use_container_width=True)
 
-        # ------------------- SECTION 3: PREDICTION HISTORY -------------------
-        st.subheader("📈 Prediction History")
+            # ------------------- SECTION 3: PREDICTION HISTORY -------------------
+            st.subheader("📈 Prediction History")
 
-        history_df = company_df.copy()
-        history_df['predicted'] = model_assets['model'].predict(
-            model_assets['scaler'].transform(history_df[model_assets['features']])
-        )
-        history_df['Actual'] = history_df['beat_miss'].map({1: 'Beat', 0: 'Miss'})
-        history_df['Predicted'] = history_df['predicted'].map({1: 'Beat', 0: 'Miss'})
+            history_df = company_df.copy()
+            history_df['predicted'] = model_assets['model'].predict(
+                model_assets['scaler'].transform(history_df[model_assets['features']])
+            )
+            history_df['Actual'] = history_df['beat_miss'].map({1: 'Beat', 0: 'Miss'})
+            history_df['Predicted'] = history_df['predicted'].map({1: 'Beat', 0: 'Miss'})
 
-        st.dataframe(
-            history_df[['call_date', 'Actual', 'Predicted', 'surprise']].rename(columns={'call_date': 'Date'}),
-            use_container_width=True
-        )
+            st.dataframe(
+                history_df[['call_date', 'Actual', 'Predicted', 'surprise']].rename(columns={'call_date': 'Date'}),
+                use_container_width=True
+            )
 
 
     # --- Tab 5: Model Performance ---
