@@ -47,4 +47,4 @@ poetry.lock
 .pytype/
 .cache/
 
-data/
+Transcripts/
