@@ -1,0 +1,48 @@
+
+venv/
+.env/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Test and coverage outputs
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Environment & dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Cache from tools
+.mypy_cache/
+.pyre/
+.pytype/
+.cache/
