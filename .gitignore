@@ -46,3 +46,5 @@ poetry.lock
 .pyre/
 .pytype/
 .cache/
+
+data/
