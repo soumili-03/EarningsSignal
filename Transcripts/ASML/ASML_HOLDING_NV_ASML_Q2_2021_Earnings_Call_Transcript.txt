@@ -1,0 +1,518 @@
+Image source: The Motley Fool.
+
+ASML HOLDING NV(ASML2.17%)Q2 2021 Earnings CallJul 21, 2021,9:00 a.m. ET
+
+Operator
+
+Thank you for standing by. Welcome to the ASML 2021 Second Quarter Financial Results Conference Call on July 21, 2021. Throughout the call -- throughout today's introduction, all participants will be in a listen-only mode. After ASML's introduction, there will be an opportunity to ask questions. I'd like to now to open the -- I'll now hand the floor to our speakers. [Operator Instructions]
+
+I'd like to now turn the conference call over to Mr. Skip Miller. Please begin your meeting.
+
+Skip Miller--Vice President of Investor Relations
+
+All right. Thank you, operator. Welcome, everyone. This is Skip Miller, Vice President of Investor Relations at ASML. Joining me today on the call is ASML's CEO, Peter Wennink; and our CFO, Roger Dassen.
+
+The subject of today's call is ASML's 2021 second quarter results. The length of this call will be 60 minutes, and questions will be taken in the order that they are received. This call is also being broadcast live over the internet at asml.com. A transcript of the management's opening remarks and a replay of the call will be available on our website shortly following the conclusion of this call.
+
+Before we begin, I'd like to caution listeners that comments made by management during this conference call will include forward-looking statements within the meaning of the federal securities laws. These forward-looking statements involve material risks and uncertainties. For a discussion of risk factors, I encourage you to review the safe harbor statement contained in today's press release and presentation found on our website at asml.com, and in ASML's annual report on Form 20-F and other documents as filed with the Securities and Exchange Commission.
+
+With that, I'd like to turn the call over to Peter Wennink for a brief introduction.
+
+Peter Wennink--President and Chief Executive Officer
+
+Thank you, Skip. Welcome, everyone, and thank you for joining us for our Q2 2021 results conference call. I hope all of you and your families are healthy and safe. But Before we begin the Q&A session, Roger and I would like to provide an overview and some commentary on the second quarter, as well as provide our view of the coming quarters.
+
+And Roger will start with a review of our Q2 2021 financial performance with added comments on our short-term outlook, and I will complete the introduction with some additional comments on the current business environment and our future business outlook.
+
+Roger, if you want?
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Thank you, Peter, and welcome, everyone. I will first review the second quarter financial accomplishments and then provide guidance on the third quarter of 2021.
+
+Net sales came in within guidance at EUR4.0 billion. The guided lower revenue was due to a number of systems in the quarter that did not receive factory acceptance testing due to customers' desire to bring systems into production as quickly as possible. Therefore, revenue will be recognized in subsequent quarters after completion of acceptance testing at customer site.
+
+We shipped 10 EUV systems and recognized EUR1.3 billion revenue from nine systems this quarter. Two EUV systems shipped this quarter without factory acceptance testing, so revenue will be recognized in the subsequent quarter after customer site acceptance. For the system we shipped in Q1 without factory acceptance testing, we were able to complete site acceptance test and recognize revenue in Q2. Again, the net result is nine EUV revenue systems in Q2.
+
+Net system sales of EUR2.9 billion was again more weighted toward Logic at 72%, with the remaining 28% from Memory. The strength in Logic drives both Deep UV and EUV revenue. The Memory business is mainly driven by DRAM.
+
+Installed Base Management sales for the quarter came in at EUR1.1 billion, above guidance, due to increased upgrade business as customers continued to pull forward software upgrades that can quickly increase productivity of systems in this high semiconductor demand environment.
+
+Gross margin for the quarter was 50.9% and was above guidance primarily due to the additional software upgrade business and one-off revenue accounting releases.
+
+On operating expenses, R&D expenses came in at EUR634 million and SG&A expenses at EUR172 million, which was slightly lower than our guidance.
+
+Net income in Q2 was EUR1.0 billion, representing 25.8% of net sales and resulting in an EPS of EUR2.52.
+
+Turning to the balance sheet. We ended the second quarter with cash, cash equivalents and short-term investments at a level of EUR5.4 billion.
+
+Moving to the order book, Q2 net system bookings came in at a record EUR8.3 billion, including EUR4.9 billion for EUV systems. The very strong order intake for both EUV and Deep UV is a reflection of the global demand environment across all markets. Order intake was largely driven by Logic with 71% of the bookings, and Memory accounting for the remaining 29%. The majority of EUV orders continued to come from Logic customers, but we also had our largest EUV order intake for DRAM this quarter coming from multiple customers.
+
+With that, I would like to turn to our expectations for the third quarter of 2021. We expect Q3 total net sales to be between EUR5.2 billion and EUR5.4 billion. We expect our Q3 Installed Base Management sales to be around EUR1.0 billion. Gross margin for Q3 is expected to be between 51% and 52%.
+
+The expected R&D expenses for Q3 are around EUR645 million and SG&A is expected to come in at around EUR180 million. R&D expenses for 2021 are expected to be around 14% of sales. We expect SG&A to remain around 4% of sales for 2021. Our estimated 2021 annualized effective tax rate is expected to be around 15%.
+
+In Q2, ASML paid a final dividend of EUR1.55 per ordinary share or EUR639 million. Together with the interim dividend paid in 2020, this results in a total dividend for 2020 of EUR2.75 per ordinary share. This is a 15% increase compared to the 2019 dividend.
+
+In Q2 2021, ASML purchased 3.6 million shares under the 2020-2022 program for a total amount of around EUR2.0 billion.
+
+As part of ASML's financial policy to return excess cash to its shareholders through growing dividends and share buybacks, ASML announced a new share buyback program which will start on July 22, 2021 and is to be executed by the 31st of December 2023. As part of this program, ASML intends to repurchase shares up to an amount of EUR9 billion, of which we expect a total of up to 0.45 million shares will be used to cover employee share plans.
+
+ASML intends to cancel the remainder of the shares repurchased. The new program will replace the previous EUR6 billion share buyback program 2020 through 2022, under which ASML has repurchased approximately 11.7 million shares for an approximate amount of EUR5.2 billion, and which will not be completed for the full amount in light of the new share buyback program.
+
+With that, I'd like to turn the call back over to Peter.
+
+Peter Wennink--President and Chief Executive Officer
+
+Thank you, Roger. As Roger highlighted, we had a good quarter in both sales and profitability. We're seeing continued strong demand from our customers across all market segments, from both advanced and mature nodes, driving demand across our entire product portfolio.
+
+Compared to last quarter, where we expected an annual sales growth rate toward 30%, we now expect revenue to be up around 35% this year. The higher sales growth comes from our ability to increase output in our factories and in the supply chain, as we work to meet the strong customer demand.
+
+Looking at the different market segments and changes from last quarter, we now expect stronger growth rates across all markets.
+
+In Logic, global demand continues to be strong across a broad application space in both advanced and mature nodes. And compared to last quarter, where we expected 2021 Logic revenue to be up 30% year on year, we now expect Logic to be up around 35% this year.
+
+In Memory, customers see tight supply/demand dynamics continuing into next year. And compared to last quarter, where we expected 2021 Memory revenue to be up 50% year on year, we now expect Memory revenue to be up around 60% this year.
+
+In our Installed Base business, for the second quarter in a row, our upgrade business has been stronger than guided. Customers are looking to upgrades to provide the fastest path to increase their wafer output capability. Compared to last quarter, where we expected 2021 Installed Base revenue to be up 10% year on year, we now expect Installed Base revenue to be up around 15% this year.
+
+As we continue to strengthen our outlook on the year, the majority of the increase is coming from our Deep UV business. We have increased our planned factory output to meet customers growing demand and now expect higher growth in Deep UV in 2021. While keeping in mind the minimum stocking levels, the increased output was partly due to the usage of service inventory at ASML and its suppliers.
+
+On EUV, we continue to push our manufacturing capability and have been able to realize a limited increase in output. We now expect EUV revenue growth of around 35% year on year, an increase from the 30% as we communicated last quarter, and we also shipped our first 3600D system in Q2 which will deliver a 15% to 20% higher productivity capability than our 3400C systems. The vast majority of the EUV systems in the second half will be 3600D systems, contributing to increased wafer capacity in our customers' fabs.
+
+To summarize this year, taking into account the planned system output improvements in the second half, we now expect sales growth of about 35% and a gross margin between 51% and 52% for the full year.
+
+Looking beyond 2021, if you read the papers, you can see the three trends we highlighted last quarter continue to drive semiconductor and equipment demand. Chip shortages, partly due to decisions made during the global pandemic, first reported in the automotive industry, have since moved to other industries. This is causing a more cyclical or catch-up driven demand that we expect will likely continue into next year.
+
+More importantly, secular growth from the digital transformation that is underway as the world becomes more connected, not only machine to people, people to machine, but also machine to machine. The expanding application space, with secular drivers such as 5G, AI, high-performance and distributed computing, is fueling a rapidly growing demand for semiconductors. And this demand is not only for leading edge devices required to power these high-performance applications, but it also requires a wide array of applications using other technology to support the build out of the digital infrastructure. Computing is also rapidly moving to the edge, where sensing technologies require connected compute technologies that are often mature in nature.
+
+Lastly, the push for technological sovereignty as countries and regions are planning to establish or expand regional semiconductor manufacturing capabilities in an attempt to manage geographical semiconductor manufacturing risks. This will likely create some level of inefficiency in the semiconductor supply chain and thus additional equipment demand, although we believe that this potential inefficiency will be managed rationally by a few very large manufacturers which are crucial in building this additional infrastructure. We expect these trends to continue for the next several years, which fuels long-term demand for both Logic and Memory and drives demand for our entire product portfolio.
+
+For EUV, future demand growth is primarily driven by Logic, with increasing EUV layer counts and stronger wafer demand on advanced nodes. We're also seeing growing demand for EUV in Memory as customers are ramping EUV in volume production with plans to implement EUV on future nodes across three DRAM customers. With the strong order intake this quarter, this brings our backlog -- our total backlog to EUR17.5 billion, which includes EUV of EUR10.9 billion, which is a reflection of the very healthy market environment we are in today and it covers approximately 80% of the planned EUV output for 2022.
+
+For future Deep UV demand, it's driven by the growing wafer demand in both Memory and Logic. We see both advanced and mature nodes increasing over time. Immersion is required for the more advanced nodes in Memory and Logic, with dry technology required for both advanced and mature technology. We see the Deep UV demand, certainly for dry products, being stronger for longer.
+
+In order to meet our customers' increasing long-term demand, we are working hard with our supply chain to increase our capacity. We continue to drive down manufacturing cycle times, both in our factory and in our supply chain. And jointly with our suppliers, we are looking across the supply chain to determine where we need to add people, equipment or buildings to increase our output capability for EUV as well as Deep UV. Each of these activities have different time horizons to materialize.
+
+For Deep UV, in response to market demand, we will need to increase our capacity in 2022 and beyond, and have therefore started to execute plans to significantly increase our capacity, primarily with dry systems. This is needed since we will not be able next year to again use the surplus inventories of Deep UV modules and parts to fuel our sales, as we will do in 2021. It's a bit too early to provide specific details on our capacity plans for the coming years as we have not yet confirmed the targeted capacity increases with our key suppliers, but we will provide an update as soon as we have finalized these plans.
+
+For EUV, we are planning our supply chain for a capacity of around 55 systems in 2022 and are looking to further increase the capacity to over 60 EUV systems in 2023. In addition to increasing our system capacity, we are also driving our product roadmap to deliver higher productivity systems to increase effective wafer capacity. All of our planned shipments in 2022 will be the higher productivity 3600D systems.
+
+In summary, the chip demand is very strong and we're working to maximize output to meet customer demand. The secular growth trends as part of the digital transformation to a more connected world is fueling future demand across all market segments at both the advanced and the mature nodes, which only increases our confidence in our long-term growth outlook.
+
+We plan to provide you an update on our future scenarios at our Investor Day on September 29th, so please book the date.
+
+With that, we would be happy to take your questions.
+
+Skip Miller--Vice President of Investor Relations
+
+All right. Thank you, Peter and Roger. The operator will instruct you momentarily on the protocol for the Q&A session. Beforehand, I would like to ask that you kindly limit yourself to one question with one short follow-up, if necessary. This will allow us to get to as many callers as possible.
+
+Operator, could we have your final instructions and then the first question, please?
+
+Operator
+
+Thank you. [Operator Instructions] Our first question comes from the line of Francois Bouvignies of UBS. Please go ahead. Your line is open.
+
+Francois Bouvignies--UBS -- Analyst
+
+Hi. Thank you very much for taking my questions. And maybe the first one, if I may, it's on the -- if we look at your upside for dry Deep UV, how would you slice this between what ties up to your new leading-edge Logic and Memory capacity? And what relates to new trailing-edge logic and analog would be interesting to have the color of the two?
+
+And the second question I had, maybe, Peter, when we look at the market dynamic, I mean, there is obviously a strong demand, and as a consequence, a significant shortage. And on top of that, you have some local capacity concern that you talked about in your video. So what I'm trying to understand is, with these two factors that probably one concern is kind of inflation of orders creating some disconnect between the supply and the demand, i.e., the shortage and local domestic capacity. So how do you assess this risk? How do you manage this risk of overcapacity when you think about adding capacity in Deep UV and EUV? Thank you very much.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. Very good questions. Let me first answer the upside on the dry Deep UV. Well, it's driven by leading-edge or let's say, trailing or mature. I think on the leading-edge, we have a reasonably good view as to what our customers need in terms of new fabs build, ramp-up plans. And of course, we know the latest techs, we know the layer composition in terms of dry immersion EUV. So yes, that's growing, but that's more plannable, I would say. We have more insights.
+
+I think what's really surprised us is the very strong demand from, let's say, the non-leading edge customers, which is across the globe. It's in Europe, it's in the U.S., it's in Asia, and it has to do with microcontrollers, power, analog, image sensors. It's all over the place.
+
+And I think it's also explainable and a bit of a lead into your next question that if you see where this is going and where the shortages are in automotive and other industrial areas. Even from time to time we get questions out of our own supply chain, whether we can help sourcing some of these components, which basically, normally, we can because we have some good contacts with some semiconductor manufacturers. So we actually see this happening everywhere, yeah.
+
+You see lead times in household appliances going up simply because analog, power, sensors, microcontrollers in household appliances are in shortage, yeah. So it's -- basically, it's the rollout of the -- finally what we are seeing as the Internet of Things and 5G, we have the big pipe, so you can actually use the big pipe to actually transfer that data and transport the data. And that's what we're seeing now. So it's -- basically the big surprise was really what we would call the mature or the specialty semiconductors, yeah, which is just a reflection of the digital transitions that were right in the middle.
+
+So leading into the -- and answer to your second question, so how do we then assess the risk of this capacity increase that we're planning for? It's basically how do we assess the risk that this rollout of this digitization, the digital infrastructure is a hoax. It's not happening. It's not there or it's happening at a speed that we completely misjudge. I think given where the shortages are and the time it will take to get rid of those shortages, I think the underlying growth trend there is this high level of reality in there, in our mind. So we will build that capacity.
+
+And I have to add. I think structurally, over the last 15 years, I think we have underestimated the growth of the industry. And I can only -- this might be anecdotal, but in 2007, we started to give you for the first time, a scenario target based on a certain market assumption five years out. And we got that one year early.
+
+The second time we did that, we got that two years early. And the third time we did it, that was the one that we're in today. And you know we are guiding about EUR18.9 billion, close to EUR19 billion, which is effectively what's our mid-market scenario that we gave you for 2025. We again are top -- are years early. So we strictly underestimate the growth in this industry. I'm not concerned in building that capacity, we will use it.
+
+Francois Bouvignies--UBS -- Analyst
+
+Thanks, Peter.
+
+Operator
+
+Thank you. Our next question comes from the line of Joe Quatrochi of Wells Fargo. Please go ahead. Your line is open.
+
+Joe Quatrochi--Wells Fargo -- Analyst
+
+Yeah. Thanks for taking the question. So you talked about the catch-up effect that's stretching into 2022. I was curious on the DUV side, your orders remain really strong. So just curious with the capacity increases you're putting in place. Is that catch-up with your order book? Is that more of a first-half 2022 dynamic? Or do you see that as continuing into the second half of 2022?
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. That's a good question. It depends on the speed with which we can get the -- well, it depends on the confirmation we can get from our supply chain because we did ask them, especially for the mature products and dry products to get a significant increase, which is a double-digit increase in our capacity -- our data capacity, I should say. And that could then easily extend into the second half of next year.
+
+Like I said earlier, I think this disruption of the supply chain that happened during the global pandemic, I think it's like a traffic jam. You have a traffic jam in 15 minutes, it takes an hour to get it resolved. It's basically what's happening also in the industry. This is -- it's a global supply chain with many, many key players there. When you start to put locks into this global efficient supply chain effectively and you take out those locks, not all at the same time, and inventories are depleted before everything starts growing again, it takes time. And that's what we see.
+
+We actually see that in the supply chain and customers of our customers and customers of the customers' customers that basically now reassessing their planning, and they're finding out there are shortages all over the place, whereby the key players in that ecosystem are not fully aligned yet on making this seamless again. And that will take time. So this will lead into 2022 easily.
+
+And I think the first half, if our supply chain, and not only our supply chain, also the supply chain of our peers, can follow then, yeah, maybe mid-next-year we will see some relief and then you see a tapering off of the order intake. But otherwise, I think it will continue into the second half of next year.
+
+Joe Quatrochi--Wells Fargo -- Analyst
+
+Got it. That's helpful. And then on the increased EUV revenue outlook for this year, from a revenue perspective, it sounds like you're doing some things to maybe improve the manufacturing or your capabilities and maybe get another tool out the door. But just curious in addition to that, is that reflective of maybe any sort of expectations around mix being a little bit stronger to the 3600D or configurations being a little bit richer than expected when we entered this year?
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Yeah. I think you've got it, Joe. It's a combination of those things. I think what you saw over the quarters -- during the quarters is that indeed the ASP turned out to be stronger than what you saw last year. And I think that was the result as you say of the options that customers asked for. So they were richer configurations than originally envisaged. So there, you saw on the 3500C, you saw an ASP of EUR1.45. You see this quarter, even a bit higher, but the -- some 3600D in there or be it very, very small. So that's one element.
+
+And the second element indeed is that's a -- we're doing our utmost to further decrease cycle time, and as a result of that, crank out one or two more tools. So that's the reason behind the increase to 35% uptick in comparison to last year, rather than the 30%.
+
+Joe Quatrochi--Wells Fargo -- Analyst
+
+Perfect. Thank you.
+
+Operator
+
+Thank you. Our next question comes from the line of Sandeep Deshpande of J.P. Morgan. Please go ahead. Your line is open.
+
+Sandeep Deshpande--J.P. Morgan -- Analyst
+
+Yeah. Hi. Thanks for letting me on. Peter, I'm just trying to understand, clearly, I mean there is a need for capacity, both in DUV as well as EUV. I mean are you -- I mean you have laid out how much capacity you intend to outlay in EUV. Do you intend to outlay this DUV capacity additions over the next few years at a Capital Markets Day or at this point?
+
+And my second question is on the margin. Clearly, I mean, the more DUV you ship, it helps your overall gross margin and such really [Phonetic] and that has helped this year as well. I mean, do you see that trend -- that shift because of this higher DUV and the sensors and all these other older tools are likely to change your mid-term view on the gross margin because of the higher DUV shipments?
+
+Peter Wennink--President and Chief Executive Officer
+
+Well, I think the second question, Roger, will answer. On the Deep UV capacity, yes, I think it is our intention. If we have -- if we feel we're comfortable at giving you that number because we get all the confirmations in from the supply chain, I think we would definitely give you more insight into our Deep UV capacity on specifically dry, perhaps somewhat on immersion, and on -- I think more specific on EUV. We will definitely do that by the end of this quarter.
+
+But we need some -- let's say, of our key suppliers, we want to have their firm commitment, and we're going to not only get the firm commitment from an email from the CEO, but I think that we want to get that confirmed by the people who are actually building that capacity in the customers. That's going to be quite an in-depth audit if you could say because we will based on their capacity, if the demand is there, we'll accept orders, and we don't want to disappoint our customers.
+
+So it's a process that's been ongoing for the last couple of months, but I think it's definitely our intention to give you all the information that we have at that time. And I hope and I expect, to be honest, that we will be able to do that to give you that number.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Yeah. Sandeep, on the margin side, as you know, particularly with the introduction of the D model, you do see that the deltas between the different products in terms of gross margin become so smaller. And therefore, the effect that you were talking about, become smaller.
+
+You also know that within the Deep UV, there are differences between the different product in terms of gross margin, as we said on the calls before, what is particularly relevant to look at is immersion because immersion is still, from a gross margin perspective, a good product for us. And that's the one to watch.
+
+And if you, for instance, look at the last quarter, last quarter you saw that 47% of our system sales was immersion, and this year, you -- or this quarter, you see that that's gone down to 34%, which is more realistic base, I would say, also for the quarters to come. And of course, that had an impact why the gross margin Q1 was so very, very strong, and why that the gross margin in Q2 expectedly was a little bit lower. But I think that's a reset, that is important.
+
+Immersion percentage for the quarters to come more or less mirrors what we had in Q2. And as a result of that, you build up toward the 51% or 52% that we've indicated for Q3.
+
+Peter Wennink--President and Chief Executive Officer
+
+And on the dry margins because we were going to ship more dry...
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Yeah.
+
+Peter Wennink--President and Chief Executive Officer
+
+Now dry margins have generally been somewhat lower than the immersion.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Than immersion.
+
+Peter Wennink--President and Chief Executive Officer
+
+Because it's also more competition there and that's a cost drive in the mature market, which is also different in the advanced markets. So yeah, there is -- these are lower price tools, as you know there is a KrF tool, and that's a single-digit to very low double-digit number, but that depends on the configuration with a different margin profile, which is lower than our immersion margins.
+
+Sandeep Deshpande--J.P. Morgan -- Analyst
+
+Thank you very much.
+
+Operator
+
+Thank you. Our next question comes from the line of Dominik Olszewski of Morgan Stanley. Please go ahead. Your line is open.
+
+Dominik Olszewski--Morgan Stanley -- Analyst
+
+Yes. Thank you for taking the questions. The first one I wanted to discuss was on the topic of silicon solvency, as you mentioned. I'm curious in your conversations with policymakers, do you consider there to be any prospects for the U.S. to allow shipments of EUV to China at the point when you're successfully rolling out High-NA tools for research purposes in 2024? Is that the technological and time buffer that you think domestic China gets access to those EUV tools?
+
+And then the second question is specifically just on immersion. Are you seeing momentum or anticipating momentum to get market share gains further in immersion tools, specifically maybe to your Logic customer base? Thanks.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. I think on the immersion market share gains, I think our market share is still -- is already pretty high, and let's leave it at that. In EUV, I think -- yeah, EUV to China, I mean that's a subject that we've discussed many, many times during these calls. I mean, EUV is under export control according to the Wassenaar Arrangement, there is a multilateral agreement between 42 countries, and that requires an export control license from the government of the exporting country, which in this case is the Netherlands. I think that's still under review.
+
+So I think this is not the place and the time to speculate on what that would mean going forward if we introduce High-NA. I think that's -- what we of course do know, there are in-depth discussions between governments of different countries to see what they want to do. And I think it's not our role. I think we are in contact, but of course it's up to the governments, and we just wait and see what happens.
+
+Now I've said it before, the end demand of leading-edge semiconductor devices is probably not impacted -- it will not be impacted by where we ship EUV tools. The end-market will be determined by the value that's been created by those products and the ability and the willingness of the world to buy these products, which will drive the demand for high-end semiconductors, and that will drive the demand for EUV. And then we will ship EUV where EUV will -- where EUV machines will be made to make advanced semiconductors, where I assume in Korea or in the U.S. or in Europe or whatever we're going to ship those tools to.
+
+Dominik Olszewski--Morgan Stanley -- Analyst
+
+Thank you.
+
+Operator
+
+Thank you. Our next question comes from the line of Aleksander Peterc of SocGen. Please go ahead. Your line is open.
+
+Aleksander Peterc--SocGen -- Analyst
+
+Yes. Hi, and thank you for taking my question. And the first one would be just on the -- on your speed of the increase of capacity. Are your comments really pertaining pretty much 2022? Or can you put anything in place following that[Phonetic]? I'd just like to understand if we're basically maxed out and what you can do in 2021?
+
+And the second follow-up would be just on the phasing of Installed Base [Phonetic] revenue. It seems that you imply with your guidance that Q4 will be down year-on-year and quarter-on-quarter, and I just wanted to understand if that's due to the pull-in in that area that you saw in the first and second quarter? Thanks a lot.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. The increase of capacity when -- I think there are three ways in which you can increase capacity. And the first is, basically it's six months to nine months, it's just being more efficient, squeezing everything out of your production processes, basically what we call a reduction of cycle time. That's what you can do short term. That's what we do today.
+
+I think the second one is you just use the same square meters, but you hire people, you buy machines, which is especially true for our supply chain, which generally has a lead time of 12 months to 18 months, if you can get the machines, which by the way, I made a comment earlier, we also see that in the machine industry, also there's going to be a shortage because of also chip shortages. But that's 12 months to 18 months. That brings us into 2022, and it could even be toward the second half of 2022. And that's what we're seeing now in the supply chain. I think everybody works on their cycle time reduction, so we are maxed out, and then if you want to add capacity, people and machines.
+
+And then the third one is, well, you cannot suit it in this square inches or square meters or the square footage, then you need to build, which has a lead time of two to three years, which will bring you into 2023-'24. And I think -- so the capacity increase that we're focusing on is within the same square meters, machines, people, cycle time reduction, and that I think we're maxed out for this year because it's only going to be cycle time reduction and it has to be more people, more machines, same square meters next year. And that's 2022.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Aleksander, on your second question and the -- your line broke up a little bit, but understand your question to be the distribution of the Installed Base revenue over the first half and the second half of the year. And that is a correct observation.
+
+So in the first half, we had EUR2.3 billion revenue for Installed Base. And with the indication of 50% growth over last year, you would get to EUR1.9 billion for the second half of the year. And you're quite right.
+
+As we also indicated, there has been quite some pull-in of particularly the software-related upgrades by customers who want a relatively easy way to increase capacity without having to give us too much machine time. So both in Q1 and Q2, we actually got more of these software-related upgrades than we anticipated. And yeah, there is a bit of pull-in there from the second half, so that's the correct observation.
+
+Aleksander Peterc--SocGen -- Analyst
+
+Excellent. Thanks very much.
+
+Operator
+
+Our next question comes from the line of Stephane Houri of ODDO BHF. Please go ahead. Your line is open.
+
+Stephane Houri--ODDO BHF -- Analyst
+
+Yes. Good afternoon, everyone. I have a question back on margins, and maybe if you could update us on the evolution of the gross margin at EUV services. And the question linked to that, so the follow-up would be, what is in your view your potential for gross margin improvement, if you put together the improvement of EUV services margins, but also the fact that now you're selling the 3600D, which carries, if I'm correct, the same kind of margins that the rest of the tools? Yeah, that's basically my question. Thank you.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Okay. So in terms of EUV service gross margin, as you know, we broke even last year on that. This quarter, we got it to 25% gross margin on EUV service. And I think we said that within about four years' time, we believe that we get that gross margin level to approximately corporate gross margin level. That's what the intent is and that is primarily by driving down costs and by helping customers run the machines more efficiently, such that more wafers get produced, and as a result of that, we get more wafers compensated therefore. So that's the model there. And 25% from zero in a couple of quarter's time, of course, is a big uptick. But I think that is a degressive curve. So the first 25% is, of course, a big development, but then you will see that improvement gradually slow down.
+
+In terms of systems' gross margin, on the D -- the D tool gets us to the corporate gross margin, that's the way to look at it. So, still below the Deep UV gross margin, but at the corporate gross margin. With the E tool, we hope to get the gross margin to the Deep UV level, and at that stage, really have EUV and Deep UV be at the same level. That's the intent. That's what we're looking at. And of course, the E will be introduced in a little under two years from -- or two years from now, and that's the one that should get us to a Deep UV-type gross margin levels.
+
+Stephane Houri--ODDO BHF -- Analyst
+
+Okay. Thank you very much.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Welcome.
+
+Operator
+
+Thank you. Our next question comes from the line of Rolf Bulk at New Street Research. Please go ahead. Your line is open.
+
+Rolf Bulk--New Street Research -- Analyst
+
+Hi. Thank you for taking my question. You mentioned that around EUR1 billion of EUV tools are being purchased by DRAM manufacturers this year, and that is primarily for bit capacity for next year and beyond because your lead times for EUV tools are still very long today. My question is, how should we think about the DRAM EUV business in the context of '22-'23? And do you see a risk of a pullback in DRAM lithography spending as cycle times for EUV tools come down and manufacturers maybe do not need to buy that capacity 1.5 years to two years in advance anymore? Thank you.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. I think the -- we won't be -- and I think the exact number this year is probably EUR1.2 billion, so it's a bit higher. So -- of the -- and you are right. I mean, the EUR1.2 billion of EUV in our 2021 Memory guidance or DRAM guidance, I mean, you need to really look at bit capacity additions from those machines, not in 2021, there's going to be later.
+
+I think on 2022-2023, when we look at the roadmaps, the customer roadmaps, yes, we will see as a higher number of EUV shipments for DRAM, and it's driven basically by the capacity buildouts that they are planning. And yes, when cycle times go down and also order lead times go down, but it's -- so it will have more -- as a more significant effect on when they place the orders, but not so much when they need the tools because the tools are based on the fab planning. And as you know, these fab plans are sometimes years out, so we have two, three years of planning visibility. So that will drive the -- let's say, the build capacity -- our build capacity and the potential sales, and it will have an impact on the orders, on the deals, which will be probably coming in a bit later as you've seen last quarter.
+
+I mean, there's a significant number of EUV tools that came in SPO because we have long lead times, and actually stretches our order coverage in terms of our capacity that we have for next year to the point where 80% of our capacity is now ordered. I mean that will change going forward with lead times going down, but not so much the sales. Sales will be driven by the RAM[Phonetic] plans and the capacity plans of our customers, and those are pretty well known because of the big projects and that take years.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+And those RAM plans are also based on layer count, right, and that's very clear from the roadmap from the customers that indicate that they plan to increase the layer count of EUV and DRAM manufacturing.
+
+And just to give you one more data point. So this year, you're looking at approximately 20% of the EUV revenue, so 20% of let's say of the EUR6 billion, EUR1.2 billion, that's the number. And I think it's fair to assume that the same percentage will apply to next year. So that gives you -- and as you know, we're at least expanding capacity for EUV for next year. So that gives you an indication that we do see continued growth in the EUV insertion into DRAM, and for the commensurate growth in revenue from that.
+
+Peter Wennink--President and Chief Executive Officer
+
+So absolute numbers will grow, because like you said, next year, we'll have 55 units capacity, which we'll probably very likely will sell that. But it also means that from an absolute shipment number point of view, it will keep growing for both Logic and for DRAM.
+
+Rolf Bulk--New Street Research -- Analyst
+
+Great. Thank you.
+
+Operator
+
+Thank you. Our next question comes from the line of Robert Sanders at Deutsche Bank. Please go ahead. Your line is open.
+
+Robert Sanders--Deutsche Bank -- Analyst
+
+Yeah. Hi, thanks for taking my question. I just had one, which is about EUV layer count from 3-nanometer to 2-nanometer. And that's when TSMC will be introducing gate-all-around. And most observers seem to think there will be close to zero pitch scaling from that transition as TSMC did from 20-nanometer to 14-nanometer when the FinFET was introduced. So I was just wondering is that something you were anticipating in your plan? Thank you.
+
+Peter Wennink--President and Chief Executive Officer
+
+No, I don't -- we don't have that view. I think there is -- on the 3-nanometer node and the 2-nanometer node that we look at the tools that we'll be using are different machines on those nodes. And also, there will be an introduction of double patterning EUV, which is basically helping the pitch scaling. So we have a different view.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+In our view, the transition from FinFET to gate-all-around will be layer count agnostic. So that technology will be layer count.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. On the pitch scaling, there will be introduction of double patterning at that moment. But Roger is correct, I mean, in terms of layers, it doesn't matter.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Yeah.
+
+Robert Sanders--Deutsche Bank -- Analyst
+
+Thanks a lot.
+
+Operator
+
+Thank you. The next question comes from the line of Andrew Gardiner at Barclays. Please go ahead. Your line is open.
+
+Andrew Gardiner--Barclays -- Analyst
+
+Good afternoon, Peter. Good afternoon, Roger. Thanks for taking the question. I wanted to come back to the point you were making around DUV capacity. In particular, for this year, just to try and establish a baseline, can you give us a sense as to how much of the -- this year's revenue is being driven by the buffer stocks, sort of the drawdown of that inventory that you've got?
+
+If I'm doing my math right, based on your guidance, we're now talking about a low EUR8 billion level of DUV revenue this year. So, yeah, how much of that's coming from the inventory?
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. I think let me put it -- let me answer that in a different way. I think this is -- you really have to go deep into the supply chain because it's in our service inventory, it's in the suppliers' inventory. So I would have to really go deep to give you an exact percentage. But if we look at the 2022 Deep UV plants and especially for immersion, not so much for KrF because that's where we can see some improvement in terms of shipment numbers. But I think in terms of immersion 2022, I would currently think that our immersion sales number will be about the same as this year, whereby this year, we, of course, were helped by, as you could say, one-time depletion of the stocks is creeping them from everywhere that we could.
+
+So I wouldn't at this moment in time -- because don't forget, I mean, the immersion numbers this year are quite high. I think from an immersion point of view, we have to go back long time to look at similar shipment numbers. I think it will probably be the same next year. But next year, we will not have the advantage of being able to deplete the stocks. So this is the way that I would look at it.
+
+And on KrF, some dry seasons there, you could see higher numbers next year because that's where we actually need the capacity. And that was also the answer to one of the earlier questions, where do we see it. I think we basically see this dry demand coming out of, I would say, the specialty markets or the mature markets, which is basically everywhere. So hopefully that answers your question, Andrew.
+
+Andrew Gardiner--Barclays -- Analyst
+
+Yeah, it does. And if I could just follow-up with that quickly, I mean, you're talking about a quote significant double-digit increase in capacity for DUV. Clearly not all of that is going to come online in '22, you know that presumably is just the starting point. But if we look out over the next couple of years, I mean, significant, perhaps to state the obvious is not 10%. I know you want to save something for September. But I mean it feels like you're talking 20% plus or minus, that kind of a ballpark would that be reasonable?
+
+Peter Wennink--President and Chief Executive Officer
+
+I mean, you know us for a long time, so you can assess what significant means in our terms, and that's not 10% as you pointed out. But what it is, we'll probably be more specific in September -- the end of September. But, yeah, you also -- when capacity comes online, there is also a lead time between when the capacity comes online, when we get the models, the parts, we can make the tools and we can ship it to the customers. And so part of that capacity that will come online, that significant capacity increase, which will be in the double-digit. That will have an effect in 2023, not in 2022.
+
+When it's available, January 1, 2022, yeah, and then you are right. But as I pointed out, I mean, people and machines and potentially using extra square meters, takes 12 months to 18 months before it's there, and then they need to produce and then we need to produce and then it needs to be installed. So I think we will see that capacity increase definitely occurring next year. And how much of that we can use for output, that still remains to be seen, and we're figuring that out together with our suppliers.
+
+Andrew Gardiner--Barclays -- Analyst
+
+Thanks very much, Peter.
+
+Operator
+
+Thank you. Our next question comes from the line of Didier Scemama of Bank of America. Please go ahead. Your line is open.
+
+Didier Scemama--Bank of America -- Analyst
+
+Thank you. Good afternoon, gentlemen. Thanks for taking my question. I have a first question and a quick follow-up. And maybe, Peter, if you could share your thoughts with us on a sort of a debate in the market that you also touched on your -- one of the three long-term drivers. So in the U.S., they've identified effectively a gap between what's being produced in the U.S. and what's being consumed. I think the numbers are 12% and 40%[Phonetic], if I remember correctly.
+
+So my question to you is, if we were to narrow that gap substantially, how much spending on lease equipment would need to happen? Number one. And number two, how long will it take to actually get there realistically? And then I've got a quick follow-up.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. I think you might be surprised, but yes, I think it doesn't matter that much because we assume -- I think that's a right assumption, if you look at the expansion plans which are more -- let's say, more concrete in the U.S., but as you know that that discussion was happening in Europe. These expansions will not be made by just a new company coming online. It just -- it will be the, I would say, established players, the leaders that have the capability and the competence to build those fabs and to manage them, and have the process knowledge to copy exact, if I may use that word, those processes from other parts of the world into the U.S. and into Europe.
+
+And those companies, they are going to build those fabs to make sure that they can supply the market with the needs for those products, and it's going to be just a few companies which is going to be rational. I don't think that any administration can go to the CEOs of one of those companies and say because we want that capacity, you have to build, but then it's going to be idle, it's going to be completely inefficient. They are not going to do that. So it's going to be rational. And all the information that we have points to those few companies that have the capability to build those fabs.
+
+So I think from my little point of view, yes, there will be some inefficiency, because you're building a new fab, new operations in a place where you cannot piggyback on your local ecosystem, if you do it in different part of the world. So, yes, there will be -- there is a ramp-up time for those fabs will be somewhat inefficient, but it's not going to be double-digit percentages. I don't believe that at all. The rationale behavior of our key customers is -- will simply prevent that.
+
+Now, how long will it take? I don't think we will see anything coming out of those fabs before 2024, 2025. So I think it's a couple of years out. I mean, building those fabs will take two to three years, and then they need to ramp. As you know, these will be big fabs and they don't ramp all at once, they ramp in phases. So it's going to be 2024 onwards, 2025, 2026. And so it's not going to be short term.
+
+But again, yes, I think the drive for this technological solvency is really based on the assumption that also this industry will -- the industry of our customers, the semiconductor industry, might very well double in terms of sales over the next 10 years, which means that just from a geographical risk point of view and from a manufacturing risk point of view, the desire to just spread the manufacturing capability across the globe driven by a few manufacturers -- a few large manufacturers that have competence to do that, that seems very logical.
+
+And I think -- so I think it will happen. It will not create massive inefficiency. Some inefficiency, which of course will help us a bit, but I will -- but it will be driven by, I think, rationality and it will be driven by government subsidies, that's true. So that's -- when you're a taxpayer in those jurisdictions, it's your world.
+
+Didier Scemama--Bank of America -- Analyst
+
+Thank you for your answer. As a quick follow-up, I just wanted to come back to DUV. And my question to you, Peter, is very simple. Over the years, the semiconductor industry has never managed to effectively exert pricing power with that customer base for the reasons that we can imagine. But now that -- and I'm not saying you should abuse that pricing power, but now that you are in a slightly different position, you're talking about the doubling of market demand over the next 10 years, etc. And given the investments that you have to make and particularly shareholders are also worried that, hey, is it the right time to add that much capacity, would it be feasible for ASML to ask your customers to effectively pay in advance for those EUV tools so that you completely de-risk your model and completely eliminate the risk for double ordering or triple ordering?
+
+Peter Wennink--President and Chief Executive Officer
+
+Well, it's always a good question to ask as an entrepreneur to de-risk completely their business model. But to be very honest, I mean that never happens. And I don't think it's the way also we need to deal with our customers, which is only a handful. And there's a handful of equipment players.
+
+And on Deep UV, yes, I think we will charge our customers the value of those machines. And to give you an example, we will put Deep UV KrF on NXT platform, which will significantly increase the productivity for our customers, which also I think we are entitled to part of that value and which I think they will pay us.
+
+So I think the way that we look at increasing prices in is really to provide our customers more value, not to say, well, we're in a squeezed situation, which could be last for-- it's a couple of years, but then we're back to normal again, and then customers will push back as in this traditional customer-supplier relationship. I mean, that's not the way this industry works. I don't think this industry should work this way. We have to provide value and we have many opportunities to create value for our customers, and thereby asking a higher price, but the customer will get at the value. That's how we work.
+
+I think on the risk of the capacity increases, I said it before, I think we've structurally underestimated the growth of this industry. And with everything that we're seeing today, I think the good reasons to believe that the underlying demand of what we see and especially in dry Deep UV and the application space that Deep UV is servicing, there is a very good reason to add extra capacity because we need that capacity. And we will sell those tools, we'll make more money, and I think it will satisfy our shareholders. And I think the risk is limited. Short term, we always have small cycles. But longer term, I don't see the risk.
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+And in terms of paying in advance, just to remind everyone that, of course, paying in advance does happen on the EUV front. So on the EUV front, given the long lead times, we do have prepayment schedules with our customers, which are significant and also clear, I think, from the free cash flow generation of ASML in the past 12 months.
+
+So I think in that way, the comment that you made, I think we're doing that, but not to -- we don't do it in this specific circumstance, but we just do it as a matter of principle because of the very long lead times that we have in the U.S.
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. That's a very good point, Roger, because I mean the lead times of Deep UV are a lot shorter, which also means that you can manage the supply and demand better. But you know, we will increase the capacity also not at ASML -- not only at ASML, but also in the supply chain. But again, based on our strong conviction that we need that capacity going forward because of the market developments that we are seeing, and I think that risk we believe is limited.
+
+Didier Scemama--Bank of America -- Analyst
+
+Got it. Thank you so much.
+
+Skip Miller--Vice President of Investor Relations
+
+All right. Thank you. We have time for one last question. If you were unable to get through on this call and still have questions, please feel free to contact the ASML Investor Relations department with your question. Now, operator, may we have the last caller, please?
+
+Operator
+
+Thank you. That's the line of C.J. Muse at Evercore ISI. Please go ahead. Your line is open.
+
+C.J. Muse--Evercore ISI -- Analyst
+
+Yeah. Good morning. Good afternoon. Thanks for squeezing me in. I guess, first question, Peter, one to clarify a comment you made to Andrew. Were you guiding immersion units next year flat? Or was that a commentary around supply availability before adding new capacity?
+
+Peter Wennink--President and Chief Executive Officer
+
+Yeah. I was -- it might have been a bit convoluted answer, but what I was trying to do because -- basically giving you tool, I would say, messages. We have -- in 2021, which is this year, we have, you could say, a spurt sales, because of the fact that we're depleting everything we can find in terms of inventory. And some would argue that some of our minimum stocking levels for our service might be at a real minimum because we're using everything to make machines. So that is this one-time step up, which gives you an immersion number and that is high. I think that will be probably the number that we're also looking for next year, where we don't have that ability to at least one-time step up.
+
+So we are effectively increasing capacity and getting to that same level. But that's basically how I think we should look at next year because that is what I think from a capacity point of view, with what we are seeing we can do in terms of cycle time reduction, in terms of putting some extra people to work, we can do so effectively in the increasing capacity, but ending up at about the same number.
+
+C.J. Muse--Evercore ISI -- Analyst
+
+Okay, helpful. And then just a quick follow-up, Roger. At your last Analyst Day, you targeted 55%-plus gross margin. As you think about calendar '22 and exiting this year with EUV margins of 50%-plus, EUV service moving higher as they come off warranty and a pretty robust mix from DUV, why wouldn't we be approaching that kind of number in calendar '22?
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+So first of all, I don't think in the Capital Markets Day we mentioned 55%. If I recall correctly, we had 50% there, but we did have two arrows in front of it, leaving it entirely to your imagination how far you wanted to stretch that. So I think '22, based on the number of the dynamics that I mentioned, certainly from a gross margin perspective, has promise in there for sure, but it's way too early to give any definitive guidance on that.
+
+But you would have seen -- if you look at the trajectory over the year, you would see that we're now guiding 50 -- the 51%, 52% for next quarter, that's a good basis. That has already quite a bit of D in there. Of course, next year, everything would be D. Next year, you would benefit from the 2050 a bit more than you would this year. So there's a bit of potential there, but it's still a bit too early to give any guidance on what it's going to look like next year.
+
+C.J. Muse--Evercore ISI -- Analyst
+
+Very helpful. Thank you.
+
+Skip Miller--Vice President of Investor Relations
+
+All right. Before we sign off, I'd like to remind you that our Investor Day is currently planned to be held in London, on September 29, 2021, COVID conditions permitting. We will keep you posted on details and hope you will be able to join us.
+
+Now, on behalf of ASML, I'd like to thank you all for joining us today. Operator, if you could formally conclude the call, I'd appreciate it. Thank you.
+
+Operator
+
+[Operator Closing Remarks]
+
+Duration: 63 minutes
+
+Skip Miller--Vice President of Investor Relations
+
+Peter Wennink--President and Chief Executive Officer
+
+Roger Dassen--Executive Vice President and Chief Financial Officer
+
+Francois Bouvignies--UBS -- Analyst
+
+Joe Quatrochi--Wells Fargo -- Analyst
+
+Sandeep Deshpande--J.P. Morgan -- Analyst
+
+Dominik Olszewski--Morgan Stanley -- Analyst
+
+Aleksander Peterc--SocGen -- Analyst
+
+Stephane Houri--ODDO BHF -- Analyst
+
+Rolf Bulk--New Street Research -- Analyst
+
+Robert Sanders--Deutsche Bank -- Analyst
+
+Andrew Gardiner--Barclays -- Analyst
+
+Didier Scemama--Bank of America -- Analyst
+
+C.J. Muse--Evercore ISI -- Analyst
+
+More ASML analysis
+
+All earnings call transcripts
+

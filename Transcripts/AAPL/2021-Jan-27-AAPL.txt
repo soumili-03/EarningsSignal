@@ -1,0 +1,715 @@
+Apple Inc. (
+NASDAQ:
+AAPL
+) Q1 2021 Results Conference Call January 27, 2021
+
+5:00 PM ET
+
+Company Participants
+
+Tejas Gala - Director of Investor Relations and Corporate Finance
+Tim Cook - Chief Executive Of
+fi
+cer
+Luca Maestri - Chief Financial Of
+fi
+cer
+
+Conference Call Participants
+
+Katy Huberty - Morgan Stanley
+Wamsi Mohan - Bank of America
+Shannon Cross - Cross Research
+Toni Sacconaghi - Bernstein
+Amit Daryanani - Evercore ISI
+Samik Chatterjee - JP Morgan
+Krish Sankar - Cowen
+Chris Caso - Raymond James
+Jim Suva - Citigroup
+
+Operator
+
+Good day, and welcome to the Apple Q1 Fiscal Year 2021 Earnings Conference Call.
+
+Today's call is being recorded.
+
+
+
+
+
+
+
+
+
+At this time, for opening remarks and introductions, I would like to turn the call over
+
+to Tejas Gala, Director of Investor Relations and Corporate Finance. Please go
+
+ahead.
+
+Tejas Gala
+
+Thank you. Good afternoon and thank you for joining us. Speaking 
+fi
+rst today is
+
+Apple's CEO, Tim Cook, and he'll be followed by CFO, Luca Maestri. After that, we'll
+
+open the call to questions from analysts.
+Please note that some of the information you'll hear during our discussion today will
+
+consist of forward-looking statements, including, without limitation, those regarding
+
+revenue, gross margin, operating expenses, other income and expense, taxes,
+
+capital allocation and future business outlook, including the potential impact of
+
+COVID-19 on the Company's business and results of operations. These statements
+
+involve risks and uncertainties that may cause actual results or trends to differ
+
+materially from our forecast.
+For more information, please refer to the risk factors discussed in Apple's most
+
+recently 
+fi
+led annual report on Form 10-K and the Form 8-K 
+fi
+led with the SEC today,
+
+along with the associated press release. Apple assumes no obligation to update any
+
+forward-looking statements or information, which speak as of their respective dates.
+I'd now like to
+ turn the call over to Tim for introductory remarks.
+
+Tim Cook
+
+Thank you, Tejas. Good afternoon, everyone. Thanks for joining the call today. It's
+
+with great gratitude for the tireless and innovative work of every Apple team member
+
+worldwide that I share the results of a very strong quarter for Apple. We achieved an
+
+all-time revenue record of $111.4 billion. We saw strong double-digit growth across
+
+every product category, and we achieved all-time revenue records in each of our
+
+geographic segments.
+It is not far from many of our minds that this result caps off the most challenging year
+
+any of us can remember. And it is an understatement to say that the challenges it
+
+posed to Apple as a business paled in comparison to the challenge it posed to Apple
+
+as a community of individuals, to employees, to their families and to the communities
+
+we live in and love to call home.
+
+
+While these results show the central role that our products played in helping our
+
+users respond to these challenges, we are doubly aware that the work ahead of all of
+
+us to navigate the end of this pandemic, to restore normal life and prosperity in our
+
+neighborhoods and local economies and, to build back with a sense of justice is
+
+profound and urgent. We will speak to these needs and Apple's efforts throughout
+
+today's call, but I want to 
+fi
+rst offer the context of a detailed look at our results this
+
+quarter, including why we outperformed our expectations.
+Let's get started with hardware. We hit a new high watermark for our installed base
+
+of active devices, with growth accelerating as we passed 1.65 billion devices
+
+worldwide during the December quarter. iPhone grew by 17% year-over-year, driven
+
+by strong demand for the iPhone 12 family, and our active installed base of iPhones
+
+is now over 1 billion. The customer response to the new iPhone 12 models'
+
+unprecedented innovation from world-class cameras to the great and growing
+
+potential of 5G has been enthusiastic, even in light of the ongoing COVID-19 impact
+
+at retail locations.
+iPad and Mac grew by 41% and 21%, respectively, re
+fl
+ecting the continuing role
+
+these devices have played in our users' lives during the COVID-19 pandemic. During
+
+this quarter, availability began for both our new iPad Air as well as the 
+fi
+rst generation
+
+of Macs to feature our groundbreaking M1 chip. The demand for all of these products
+
+has been very strong.
+We have also continued our efforts to bring the latest iPads, enriching content and
+
+professional support to educators, students and parents. Educational districts and
+
+governments worldwide are continuing major deployments, including the largest iPad
+
+deployments ever to schools in Germany and Japan.
+Wearables, Home and Accessories grew by 30% year-over-year, driven by signi
+fi
+cant
+
+holiday demand for the latest Apple Watch, our entire AirPods lineup, including the
+
+new AirPods Max as well as the new HomePod mini. This broad strength across the
+
+category led to new revenue records for each of its three subgroups, and we're very
+
+excited about the road ahead for these products.
+Look no further than the great potential of Fitness+, which pairs with Apple Watch to
+
+deliver real-time on-screen 
+fi
+tness data alongside world-class workouts by the
+
+world's best trainers. There are new sessions added each week, and customers are
+
+loving the 
+fl
+exibility, challenge and fun of these classes as well as how the pairing
+
+with Apple Watch pushes you to achieve your 
+fi
+tness goals.
+
+
+This deep integration of hardware, software and services, have always de
+fi
+ned our
+
+approach here, and it has delivered an all-time quarterly Services record of $15.8
+
+billion. This was the 
+fi
+rst quarter of the Apple One bundle, which brings together
+
+many of our great services into an easy subscription and with new content being
+
+added to these services every day, we feel very optimistic about where we are
+
+headed.
+The App Store ecosystem has been so important as individuals, families and
+
+businesses worldwide evolve and adapt to the COVID-19 pandemic, and we want to
+
+make sure that this unrivaled engine of innovation and opportunity continues. This
+
+quarter, we also took a signi
+fi
+cant new step to help smaller developers continue to
+
+experiment, innovate and scale the latest great app ideas.
+The App Store Small Business Program reduces the commission on the sale of
+
+digital goods and services to 15% for small businesses earning less than $1 million a
+
+year. The program launched on January 1st and we are already hearing from
+
+developers about how this change represents a transformation in their potential to
+
+create and grow on the App Store.
+Tomorrow is International Privacy Day, and we continue to set new standards to
+
+protect users' right to privacy, not just for our own products but to be the ripple in the
+
+pond that moves the whole industry forward. Most recently, we're in the process of
+
+deploying new requirements across the App Store ecosystem that give users more
+
+knowledge about and new tools to control the ways that apps gather and share their
+
+personal data.
+The winter holiday season is always a busy times for us and our products, but this
+
+year was unique. We had a record number of device activations during the last week
+
+of the quarter. And as COVID-19 kept us apart, we saw the highest volume of
+
+FaceTime calls ever this Christmas. As always, we could not have made so many
+
+holidays special without our talented and dedicated retail teams who helped us
+
+achieve a new all-time revenue record for retail, driven by very strong performance in
+
+our online store.
+Particularly, after the events of the last few weeks, we are focused on how we can
+
+help a moment of great national need. Because none of us should have any illusions
+
+about the challenges we face as we began a new chapter in the American story.
+
+Hope for healing, for unity and for progress begins with and depends on addressing
+
+the things that continue to wound us.
+In our communities, we see how every burden from COVID-19, to the resulting
+
+economic challenges, to the closure of in-person learning for students, falls heaviest
+
+on those who have always faced structural barriers to opportunity and equality. This
+
+month, Apple announced major new commitments through a $100 million Racial
+
+Equity & Justice Initiative.
+
+
+The Propel Center, launched with a $25 million commitment and with the support of
+
+historically black colleges and universities across the country, will help support the
+
+next-generation of leaders in 
+fi
+elds ranging from machine learning to app
+
+development to entrepreneurship and design.
+And our new Apple Developer Academy in Downtown Detroit will be the 
+fi
+rst of its
+
+kind in the United States. Detroit has a vibrant culture of black entrepreneurship,
+
+including over 50,000 black-owned businesses. We want to accelerate the potential
+
+of the app economy here, knowing there is no shortage of good ideas in such a
+
+creative, resilient and dedicated community.
+Finally, we're committing $35 million across two investments in Harlem Capital and
+
+the Clear Vision Impact Fund that support, accelerate and grow minority-owned
+
+businesses in areas of great potential and need. In December, we concluded an
+
+unmatched year of giving.
+Since the inception of the Apple Giving Program in 2011, Apple employees have
+
+donated nearly $600 million and volunteered more than 1.6 million hours to over
+
+34,000 organizations of every stride. Through our partnership with Product Red,
+
+we've adapted our 14-year $250 million effort to support HIV and AIDS work globally
+
+to ensure that care of COVID. That includes delivering millions of units of personal
+
+protective equipment to health care providers in Zambia.
+And here in the United States, even with COVID's effects, we are ahead of schedule
+
+on our multiyear commitment to invest $350 billion throughout the American
+
+economy. As proud as this makes us, we know there is much more to be done.
+
+Looking forward, we continue to contend with the COVID-19 pandemic but we must
+
+also now work to imagine what we will inherit on the other side.
+When a disease recedes, we cannot simply assume that healing follows. Even now,
+
+we see the deep scars that this period has left in our communities. Trust has been
+
+compromised, opportunities have been lost, entire portions of our lives that we took
+
+for granted, schools for children, meetings with our colleagues, small businesses that
+
+have endured for generations have simply disappeared.
+It will take a society-wide effort across the public and private sectors as individuals
+
+and communities, every one of us, to ensure that what's ahead of us is not simply the
+
+end of a disease, but the beginning of something durable and hopeful for those who
+
+gave, suffered and endured during this time.
+At Apple, we have every intention to be partners in this effort, and we look forward to
+
+working in communities around the world to make it possible. And as this chapter of
+
+uncertainty continues, so will our tireless work to help our customers stay safe,
+
+connected and well.
+With that, I'll hand things over to Luca.
+
+
+Luca Maestri
+
+Thank you, Tim. Good afternoon, everyone. We started our 
+fi
+scal 2021 with
+
+exceptional business and 
+fi
+nancial performance during the December quarter, as we
+
+set all-time records for revenue, operating income, net income, earnings per share
+
+and operating cash 
+fl
+ow. We are thrilled with the way our teams continued to
+
+innovate and execute throughout this period of elevated uncertainty.
+Our revenue reached an all-time record of $111.4 billion, an increase of nearly $20
+
+billion or 21% from a year ago. We grew strong double digits in each of our product
+
+categories, with all-time records for iPhone, Wearables, Home and Accessories and
+
+services as well as a December quarter record for Mac. We also achieved double-
+
+digit growth and new all-time records in each of our 
+fi
+ve geographic segments and in
+
+the vast majority of countries that we track.
+Products revenue was an all-time record of $95.7 billion, up 21% over a year ago. As
+
+a consequence of this level of sales performance and the unmatched loyalty of our
+
+customers, our installed base of active devices passed 1.65 billion during the
+
+December quarter and reached an all-time record in each of our major product
+
+categories.
+Our Services set an all-time record of $15.8 billion, growing 24% year-over-year. We
+
+established new all-time records in most service categories and December quarter
+
+records in each geographic segment. I'll cover our Services business in more detail
+
+later. Company gross margin was 39.8%, up 160 basis points sequentially, thanks to
+
+leverage from higher sales and a strong mix.
+Products gross margin was 35.1%, growing 530 basis points sequentially, driven by
+
+leverage and mix. Services gross margin was 68.4%, up 150 basis points
+
+sequentially, mainly due to a different mix.
+Net income, diluted earnings per share and operating cash 
+fl
+ow were all-time
+
+records. Net income was $28.8 billion, up $6.5 billion or 29% over last year. Diluted
+
+earnings per share were $1.68, up 35% over last year and operating cash 
+fl
+ow was
+
+$38.8 billion, an improvement of $8.2 billion.
+Let me get into more detail for each of our revenue categories. iPhone revenue was
+
+a record $65.6 billion, growing 17% year-over-year as demand for the iPhone 12
+
+family was very strong despite COVID-19 and social distancing measures, which
+
+have impacted store operations in a signi
+fi
+cant manner.
+Our active installed base of iPhones reached a new all-time high and has now
+
+surpassed 1 billion devices, thanks to the exceptional loyalty of our customer base
+
+and strength of our ecosystem. In fact, in the U.S., the latest survey of consumers
+
+from 451 Research indicates iPhone customer satisfaction of 98% for the iPhone 12
+
+family.
+
+
+Turning to Services. As I said, we reached an all-time revenue record of $15.8 billion
+
+and set all-time records in App Store, cloud services, Music, advertising, AppleCare
+
+and payment services. Our new service offerings, Apple TV+, Apple Arcade, Apple
+
+News+, Apple Card, Apple Fitness+ as well as the Apple One bundle are also
+
+contributing to overall Services growth and continue to add users, content and
+
+features.
+The key drivers for our Services growth all continue to move in the right direction:
+fi
+rst, our installed base growth has accelerated and each major product category;
+
+second, the number of both transacting and paid accounts on our digital content
+
+stores reached a new all-time high during the December quarter, with paid accounts
+
+increasing double digits in each of our geographic segments; third, paid
+
+subscriptions continue to grow nicely, and we exceeded our target of 600 million paid
+
+subscriptions before the end of calendar 2020.
+During the December quarter, we added more than 35 million sequentially, and we
+
+now have more than 620 million paid subscriptions across the services on our
+
+platform, up 140 million from just a year ago. Finally, we continue to improve the
+
+breadth and quality of our current Services offerings and are adding new services
+
+that we think our customers will love. For example, Apple Music recently released its
+
+biggest product update ever with features like Listen Now, all new Search, personal
+
+radio stations and auto play. 90% of Apple Music users on iOS 14 have already used
+
+these new features.
+In payment services, we continue to expand our coverage, with nearly 90% of stores
+
+in the United States now accepting Apple Pay so that customers can easily have a
+
+touchless payments experience. Wearables, Home and Accessories grew 30% year-
+
+over-year to $13 billion, setting new all-time revenue records in every geographic
+
+segment. As a result of this strong performance, our Wearables business is now the
+
+size of a Fortune 120 company.
+Importantly, Apple Watch continues to extend its reach, with nearly 75% of the
+
+customers purchasing Apple Watch during the quarter being new to the product.
+
+We're very excited about the future of this category and believe that our integration of
+
+hardware, software and services uniquely positions us to provide great customer
+
+experience in this category.
+Next, I'd like to talk about Mac. We set a December quarter record for revenue at
+
+$8.7 billion up 21% over last year. We grew strong-double-digits in each geographic
+
+segment and set all-time revenue records in Europe and rest of Asia-Paci
+fi
+c as well
+
+as December quarter records in the Americas, Greater China and in Japan. This
+
+performance was driven by strong demand for the new MacBook Air, MacBook Pro
+
+and Mac mini, all powered by our brand-new M1 chip.
+
+
+iPad performance was also very impressive with revenue of $8.4 billion, up 41%. We
+
+grew strong -- very strong double digits in every geographic segment, including an
+
+all-time record in Japan. During the quarter, the new -- the all-new iPad Air became
+
+available and customer response has been terri
+fi
+c. Both Mac and iPad are incredibly
+
+relevant products for our customers in the current working and learning
+
+environments. And we are delighted that the most recent surveys of consumers from
+
+451 Research measured customer satisfaction at 93% for Mac and 94% for iPad.
+With this level of customer satisfaction and with around half of the customers
+
+purchasing Mac and iPad during the quarter being new to that product, the active
+
+installed base for both products continues to grow nicely and reached new all-time
+
+highs.
+In the enterprise market, we are seeing many businesses shifting their technology
+
+investment in response to COVID. One example is our businesses are handling their
+
+hundreds of millions of of
+fi
+ce desk phones while more employees are working
+
+remotely. Last quarter, Mitsubishi UFJ Bank, one of the largest banks in the world,
+
+announced that it will be replacing 75% of its 
+fi
+xed phones with iPhones. By doing
+
+so, it expects to realize signi
+fi
+cant cost savings while providing a secure mobile
+
+platform to employees.
+We're also pleased with the rapid adoption of the Mac Employee Choice Program
+
+among the world's leading businesses, who are seeing improved productivity,
+
+increased employee satisfaction and talent retention. With the introduction of M1-
+
+powered Macs, we're excited to extend these experiences to an even broader range
+
+of customers and employees, especially in times of increased remote working.
+Let me now turn to our cash position. We ended the quarter with almost $196 billion
+
+in cash plus marketable securities and retired $1 billion of maturing debt, leaving us
+
+with total debt of $112 billion. As a result, net cash was $84 billion at the end of the
+
+quarter. We returned over $30 billion to shareholders during the December quarter,
+
+including $3.6 billion in dividends and equivalents and $24 billion through open
+
+market repurchases of 200 million Apple shares as we continue on our path to
+
+reaching a net cash neutral position over time.
+As we move ahead into the March quarter, I'd like to provide some color on what we
+
+are seeing, which includes the types of forward-looking information that Tejas
+
+referred to at the beginning of the call. Given the continued uncertainty around the
+
+world in the near term, we will not be guiding to a speci
+fi
+c revenue range. However,
+
+we are providing some directional insights, assuming that COVID-related impacts of
+
+our business do not worsen from our current assumptions for the quarter.
+
+
+For total company revenue, we believe growth will accelerate on a year-over-year
+
+basis, and in aggregate, follow typical seasonality on a sequential basis. At the
+
+product category level, keep in mind two items: 
+fi
+rst, during the March quarter last
+
+year, we saw elevated activity in our digital services as lockdowns occurred around
+
+the world, so our Services business faces a tougher year-over-year comparison;
+
+second, we believe the year-over-year growth in the Wearables, Home and
+
+Accessories category will decelerate compared to Q1.
+As you know, we were chasing demand on AirPods last year as we expanded
+
+channel inventory from Q1 to Q2. This year, we plan to decrease AirPods channel
+
+inventory as is typical after the holiday quarter.
+We expect gross margin to be similar to the December quarter. We expect OpEx to
+
+be between $10.7 billion and $10.9 billion. We expect OI&E to be up around $50
+
+million and our tax rate to be around 17%. Finally, today, our Board of Directors has
+
+declared a cash dividend of $0.205 per share of common stock payable on February
+
+11, 2021, to shareholders of record as of February 8, 2021.
+With that, let's open the call to questions.
+
+A - Tejas Gala
+
+Thank you, Luca. We ask that you limit yourself to two questions. Operator, may we
+
+have the 
+fi
+rst question, please?
+
+Question-and-Answer Session
+Operator
+
+We'll go question from Katy Huberty with Morgan Stanley. Please go ahead.
+
+Katy Huberty
+
+Congratulations on a really strong quarter. First question for Luca. The gross margin
+
+was particularly strong versus your outlook. Can you talk about whether you
+
+recognize the full impact of the weaker dollar in the December quarter, given your
+
+typical currency hedges? And then how are you thinking about the headwinds and
+
+tailwinds on gross margins as you go into the March quarter? And then I have a
+
+follow-up for Tim.
+
+Luca Maestri
+
+
+Yes, Katy. So yes, the gross margin was strong, was better than we had anticipated
+
+at the beginning of the quarter. The reason for that was obviously, we had very
+
+strong leverage from higher sales. And the mix was strong, both the mix within
+
+products and the mix of services, and that was only partially offset by cost. As you
+
+know, we've launched many new products during the fall, and that always comes
+
+with new cost structures. So in total, it was very good.
+And from the FX standpoint, really, at the gross margin level, FX didn't play a role
+
+neither sequentially nor on a year-over-year basis for the December quarter, partially
+
+because of the hedges that you talked about but also because some currencies are
+
+still weaker against the dollar, they're still weaker than a year ago. Look speci
+fi
+cally
+
+to emerging markets in Latin America, in Russia, in Turkey and so on.
+Clearly, if the dollar remains weak or continues to weaken, that can become a
+
+tailwind for us as we get into the March quarter. At current rates, we expect some
+
+level of bene
+fi
+t around 60 to 70 basis points for the March quarter.
+
+Katy Huberty
+
+That's great. And Tim, one of the challenges with valuing Apple is just a limited
+
+visibility that investors have into the road map and any new categories that you might
+
+enter over time. Without, of course, commenting on any given opportunity, can you
+
+talk about the framework that you use internally to evaluate new markets that might
+
+be attractive and what you believe will determine your success as you look to enter
+
+new markets?
+
+Tim Cook
+
+Thanks, Katy, for the question, and thanks for not asking me any speci
+fi
+cs. The
+
+framework that we use is very much around we ask ourselves if this is a product that
+
+we would want to use ourselves or a service that we would want to use ourselves.
+
+And that's a pretty high bar. And we ask ourselves if it's a big enough market to be in
+
+unless it's an adjacency product, of which we're looking at it very much from a
+
+customer experience point of view.
+And so there's no set way that we're looking at it, no formula kind of thing. But we're
+
+taking into account all of those things, and the kind of things that we love to work on
+
+are those where there's a requirement for hardware, software and services to come
+
+together because we believe that the magic really occurs at that intersection. And so
+
+hopefully, that gives you a little bit of insight into how we look at it.
+
+
+
+
+
+
+
+
+
+
+
