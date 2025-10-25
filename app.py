@@ -11,6 +11,8 @@ from models.trainer import train_model
 from utils.stock_utils import get_stock_performance_cached
 from utils.visuals import plot_confusion_matrix, plot_feature_importance
 
+from utils.visuals import plot_classification_report
+    
 
 st.set_page_config(page_title="Earnings Dashboard", page_icon="📈", layout="wide")
 st.title("📈 Historical Strategy & Analysis Dashboard")
@@ -167,57 +169,9 @@ if df is not None:
         else:
             st.error("Feature or prediction CSV file not found. Please ensure both exist in the 'data/' folder.")
 
-    # # --- Tab 4: Historical Trends ---
-    # with tab4:
-    #     if 'selected_ticker' not in st.session_state or 'selected_date' not in st.session_state:
-    #         st.info("Please select a company and quarter in the '📜 Read Transcript' tab to continue.")
-    #     else:
-    #         selected_ticker = st.session_state['selected_ticker']
-    #         company_df = df[df['company_ticker'] == selected_ticker].sort_values('call_date', ascending=False)
 
-    #         st.subheader("Historical Linguistic Trends")
-    #         fig_trends = px.line(company_df, x='call_date', y=['avg_evasiveness', 'avg_answer_length', 'avg_numeric_density'],
-    #                              title=f'Linguistic Metrics Over Time for {selected_ticker}', markers=True)
-    #         st.plotly_chart(fig_trends, use_container_width=True)
-
-    #         st.subheader("Prediction History")
-    #         history_df = company_df.copy()
-    #         history_df['predicted'] = model_assets['model'].predict(model_assets['scaler'].transform(history_df[model_assets['features']]))
-    #         history_df['Actual'] = history_df['beat_miss'].map({1: 'Beat', 0: 'Miss'})
-    #         history_df['Predicted'] = history_df['predicted'].map({1: 'Beat', 0: 'Miss'})
-    #         st.dataframe(history_df[['call_date', 'Actual', 'Predicted', 'surprise']].rename(columns={'call_date': 'Date'}))
-
-    # --- Tab 4: Historical Trends ---
     with tab4:
-            # ------------------- ADD STYLING -------------------
-    #     st.markdown("""
-    #         <style>
-    #         /* Card styling */
-    #         .block-container {
-    #             padding-top: 1rem;
-    #         padding-bottom: 0rem;
-    #     }
-    #     .css-1aumxhk, .css-1v0mbdj, .stPlotlyChart {
-    #         background-color: #ffffff;
-    #         border-radius: 12px;
-    #         box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
-    #         padding: 15px;
-    #     }
-    #     h2, h3 {
-    #         font-family: 'Arial Black', sans-serif;
-    #         color: #333333;
-    #     }
-    #     h3 {
-    #         font-size: 18px;
-    #         margin-bottom: 0px;
-    #     }
-    #     .trend-text {
-    #         font-size: 14px;
-    #         font-weight: 500;
-    #     }
-    #     </style>
-    # """, unsafe_allow_html=True)
-
+            
         # ------------------- CHECK SESSION -------------------
         if 'selected_ticker' not in st.session_state or 'selected_date' not in st.session_state:
             st.info("Please select a company and quarter in the '📜 Read Transcript' tab to continue.")
@@ -225,32 +179,19 @@ if df is not None:
             selected_ticker = st.session_state['selected_ticker']
             company_df = df[df['company_ticker'] == selected_ticker].sort_values('call_date', ascending=True)
 
-            # ------------------- SECTION 1: OVERVIEW -------------------
-            st.subheader("📊 Historical Linguistic Trends Overview")
-
-            fig_trends = px.line(
-                company_df,
-                x='call_date',
-                y=['avg_evasiveness', 'avg_answer_length', 'avg_numeric_density'],
-                title=f"Linguistic Metrics Over Time for {selected_ticker}",
-                markers=True
-            )
-            fig_trends.update_layout(
-                title_font=dict(size=18, color="#333", family="Arial Black"),
-                xaxis_title="Date",
-                yaxis_title="Feature Value",
-                template="plotly_white",
-                showlegend=True,
-                hovermode="x unified"
-            )
-            st.plotly_chart(fig_trends, use_container_width=True)
+            
 
             # ------------------- SECTION 2: FEATURE-WISE TRENDS -------------------
             st.markdown("## 🗂️ Feature-wise Trends")
 
             feature_list = [
-                "avg_evasiveness", "avg_sentiment", "avg_readability", "avg_QA_similarity",
-                "avg_answer_length", "avg_numeric_density", "n_questions"
+                'avg_evasiveness', 'avg_sentiment', 'avg_sentiment_gap',
+                'avg_readability_kincaid', 'avg_readability_ease', 'avg_QA_similarity',
+                'avg_answer_length', 'avg_numeric_density', 'avg_lm_sentiment',
+                'avg_lexical_diversity', 'avg_complex_word_ratio', 'avg_hedge_to_modal_ratio',
+                'avg_dale_chall_score', 'avg_sentiment_polarity', 'avg_modal_ratio_verbs',
+                'avg_coleman_liau_index', 'avg_filler_freq', 'avg_hedge_freq',
+                'avg_passive_rate', 'n_questions'
             ]
 
             for i in range(0, len(feature_list), 2):
@@ -323,33 +264,40 @@ if df is not None:
             )
 
 
-    # --- Tab 5: Model Performance ---
+    
+
     with tab5:
-        if 'selected_ticker' not in st.session_state or 'selected_date' not in st.session_state:
-            st.info("Please select a company and quarter in the '📜 Read Transcript' tab to continue.")
-        else:
-            selected_ticker = st.session_state['selected_ticker']
-            selected_date = st.session_state['selected_date']
-            company_df = df[df['company_ticker'] == selected_ticker].sort_values('call_date', ascending=False)
-            selected_call = company_df[company_df['call_date'] == selected_date].iloc[0]
+        st.subheader("🤖 Overall Model Performance")
 
-            features_for_prediction = model_assets['scaler'].transform(
-                selected_call[model_assets['features']].values.reshape(1, -1)
-            )
-            prediction = model_assets['model'].predict(features_for_prediction)[0]
-            prediction_proba = model_assets['model'].predict_proba(features_for_prediction)[0]
 
-            pred_text = "BEAT ✅" if prediction == 1 else "MISS ⚠️"
-            actual_text = "BEAT" if selected_call['beat_miss'] == 1 else "MISS"
-            pred_confidence = prediction_proba[1] if prediction == 1 else prediction_proba[0]
+        
+        y_test = model_assets['y_test']
+        y_pred = model_assets['model'].predict(model_assets['scaler'].transform(model_assets['X_test']))
+        
+        # Overall model stats
+        from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+        
+        accuracy = accuracy_score(y_test, y_pred)
+        precision = precision_score(y_test, y_pred, zero_division=0)
+        recall = recall_score(y_test, y_pred, zero_division=0)
+        f1 = f1_score(y_test, y_pred, zero_division=0)
+        
+        st.markdown("### Overall Metrics")
+        metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+        metric_col1.metric("Accuracy", f"{accuracy:.2%}")
+        metric_col2.metric("Precision", f"{precision:.2%}")
+        metric_col3.metric("Recall", f"{recall:.2%}")
+        metric_col4.metric("F1-Score", f"{f1:.2%}")
 
-            st.markdown("---")
-            col1, col2, col3 = st.columns(3)
-            col1.metric("Model's Prediction", pred_text)
-            col2.metric("Actual Outcome", actual_text)
-            col3.metric("Model Confidence", f"{pred_confidence:.2%}")
 
-            st.subheader("Model Performance Overview")
-            y_pred = model_assets['model'].predict(model_assets['scaler'].transform(model_assets['X_test']))
-            st.pyplot(plot_confusion_matrix(model_assets['y_test'], y_pred))
-            st.pyplot(plot_feature_importance(model_assets['features'], model_assets['feature_importances']))
+        st.pyplot(plot_classification_report(y_test, y_pred))
+        
+        st.divider()
+        
+        st.markdown("### Feature Importance")
+        st.pyplot(plot_feature_importance(model_assets['features'], model_assets['feature_importances']))
+        
+        st.divider()
+        
+        
+        
