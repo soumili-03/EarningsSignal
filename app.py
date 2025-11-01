@@ -174,6 +174,8 @@ if df is not None:
     total_companies = df['company_ticker'].nunique()
     
     from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+    
+    # Get metrics for the best model
     y_test = model_assets['y_test']
     y_pred = model_assets['model'].predict(model_assets['scaler'].transform(model_assets['X_test']))
     model_accuracy = accuracy_score(y_test, y_pred)
@@ -181,25 +183,31 @@ if df is not None:
     model_recall = recall_score(y_test, y_pred, zero_division=0)
     model_f1 = f1_score(y_test, y_pred, zero_division=0)
 
+    # Get predictions for both models for comparison
+    lr_pred = model_assets['lr_model'].predict(model_assets['lr_scaler'].transform(model_assets['lr_X_test']))
+    rf_pred = model_assets['rf_model'].predict(model_assets['rf_scaler'].transform(model_assets['rf_X_test']))
+
     st.sidebar.header("Analyze Existing Transcripts")
     sorted_tickers = sorted(df['company_ticker'].unique())
 
 
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["🏠 Dashboard","📜 Read Transcript", "📊Effects on Market", "🧠 Get transcript features" ,"📈 Historical trends"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🏠 Dashboard","📜 Read Transcript", "📊Effects on Market", "🧠 Get transcript features" ,"📈 Historical trends", "Model Comparison"])
     
     #tab 1: dashboard
     with tab1:
         st.markdown('<div class="main-header"><h1>🤖 Earnings Call Analytics</h1><p style="font-size: 1.2rem; margin-top: 0.5rem;">Advanced NLP-powered predictions for earnings surprises</p></div>', unsafe_allow_html=True)
         
         st.markdown("## 📊 Platform Overview")
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3, col4, col5 = st.columns(5)
         with col1:
-            st.markdown(f'<div class="metric-card"><div class="big-number">{total_calls}</div><div class="label">Earnings Calls Analyzed</div></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="metric-card"><div class="big-number">{total_calls}</div><div class="label">Earnings Calls</div></div>', unsafe_allow_html=True)
         with col2:
-            st.markdown(f'<div class="metric-card"><div class="big-number">{total_companies}</div><div class="label">Companies Tracked</div></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="metric-card"><div class="big-number">{total_companies}</div><div class="label">Companies</div></div>', unsafe_allow_html=True)
         with col3:
-            st.markdown(f'<div class="metric-card"><div class="big-number">{model_accuracy*100:.1f}%</div><div class="label">Model Accuracy</div></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="metric-card"><div class="big-number">{model_assets["best_model_name"]}</div><div class="label">Best Model</div></div>', unsafe_allow_html=True)
         with col4:
+            st.markdown(f'<div class="metric-card"><div class="big-number">{model_accuracy*100:.1f}%</div><div class="label">Accuracy</div></div>', unsafe_allow_html=True)
+        with col5:
             st.markdown(f'<div class="metric-card"><div class="big-number">{model_f1*100:.1f}%</div><div class="label">F1 Score</div></div>', unsafe_allow_html=True)
         
         st.divider()
@@ -1000,3 +1008,130 @@ if df is not None:
                 history_df[['call_date', 'Actual', 'Predicted', 'surprise']].rename(columns={'call_date': 'Date'}),
                 use_container_width=True
             )
+
+    with tab6:
+        st.markdown("## 🤖 Model Comparison: Logistic Regression vs Random Forest")
+        
+        st.info(f"**Selected Model:** {model_assets['best_model_name']} (based on highest F1 score)")
+        
+        # Metrics Comparison Table
+        st.markdown("### 📊 Performance Metrics Comparison")
+        
+        comparison_data = {
+            'Metric': ['Accuracy', 'Precision', 'Recall', 'F1-Score'],
+            'Logistic Regression': [
+                f"{model_assets['lr_metrics']['accuracy']*100:.2f}%",
+                f"{model_assets['lr_metrics']['precision']*100:.2f}%",
+                f"{model_assets['lr_metrics']['recall']*100:.2f}%",
+                f"{model_assets['lr_metrics']['f1']*100:.2f}%"
+            ],
+            'Random Forest': [
+                f"{model_assets['rf_metrics']['accuracy']*100:.2f}%",
+                f"{model_assets['rf_metrics']['precision']*100:.2f}%",
+                f"{model_assets['rf_metrics']['recall']*100:.2f}%",
+                f"{model_assets['rf_metrics']['f1']*100:.2f}%"
+            ]
+        }
+        
+        comparison_df = pd.DataFrame(comparison_data)
+        st.dataframe(comparison_df, use_container_width=True, hide_index=True)
+        
+        # Visual comparison
+        st.markdown("### 📈 Visual Performance Comparison")
+        
+        metrics_names = ['Accuracy', 'Precision', 'Recall', 'F1-Score']
+        lr_values = [
+            model_assets['lr_metrics']['accuracy'] * 100,
+            model_assets['lr_metrics']['precision'] * 100,
+            model_assets['lr_metrics']['recall'] * 100,
+            model_assets['lr_metrics']['f1'] * 100
+        ]
+        rf_values = [
+            model_assets['rf_metrics']['accuracy'] * 100,
+            model_assets['rf_metrics']['precision'] * 100,
+            model_assets['rf_metrics']['recall'] * 100,
+            model_assets['rf_metrics']['f1'] * 100
+        ]
+        
+        fig_comparison = go.Figure()
+        
+        fig_comparison.add_trace(go.Bar(
+            name='Logistic Regression',
+            x=metrics_names,
+            y=lr_values,
+            marker_color='#0072B2',
+            text=[f'{v:.2f}%' for v in lr_values],
+            textposition='outside'
+        ))
+        
+        fig_comparison.add_trace(go.Bar(
+            name='Random Forest',
+            x=metrics_names,
+            y=rf_values,
+            marker_color='#D55E00',
+            text=[f'{v:.2f}%' for v in rf_values],
+            textposition='outside'
+        ))
+        
+        fig_comparison.update_layout(
+            title="Model Performance Comparison",
+            xaxis_title="Metrics",
+            yaxis_title="Score (%)",
+            barmode='group',
+            height=400,
+            template="plotly_white",
+            legend=dict(
+                yanchor="top",
+                y=0.99,
+                xanchor="right",
+                x=0.99
+            )
+        )
+        
+        st.plotly_chart(fig_comparison, use_container_width=True)
+        
+        # Confusion matrices side by side
+        st.markdown("### 🎯 Confusion Matrices")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("#### Logistic Regression")
+            st.pyplot(plot_confusion_matrix(model_assets['lr_y_test'], lr_pred))
+        
+        with col2:
+            st.markdown("#### Random Forest")
+            st.pyplot(plot_confusion_matrix(model_assets['rf_y_test'], rf_pred))
+        
+        # Classification reports
+        st.markdown("### 📋 Detailed Classification Reports")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("#### Logistic Regression")
+            st.pyplot(plot_classification_report(model_assets['lr_y_test'], lr_pred))
+        
+        with col2:
+            st.markdown("#### Random Forest")
+            st.pyplot(plot_classification_report(model_assets['rf_y_test'], rf_pred))
+        
+        # Model insights
+        st.markdown("### 💡 Model Insights")
+        
+        if model_assets['best_model_name'] == "Logistic Regression":
+            st.success("""
+            **Why Logistic Regression Won:**
+            - Better generalization on validation data
+            - Lower risk of overfitting
+            - More interpretable predictions
+            - Faster training and inference
+            """)
+        else:
+            st.success("""
+            **Why Random Forest Won:**
+            - Better captures non-linear relationships
+            - Handles feature interactions effectively
+            - More robust to outliers
+            - Ensemble approach reduces variance
+            """)
